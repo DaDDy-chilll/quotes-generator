@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(238, 238, 40);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.container{
+    color: white;
+    max-width: 50%;
+    background-color: rgba(10, 10, 10, 0.185);
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 10px 15px black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+.author{
+    color: red;
+}
+.fa-quote-left{
+    color: black;
+    font-size:50px;
+    margin-right: 5px;
+}
+.author{
+    font-size: 18px;
+}
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn{
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+.btn-new{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn-new:hover{
+    background-color: black;
+    color: white;
+}
+.btn-twitter:hover{
+ color: rgb(72, 157, 255);
+ background-color: black;
+}
+.btn:active{
+    transform: translateY(5px);
+}
+@media screen and (max-width:768px) {
+    .container{
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+}
